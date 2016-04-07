@@ -1,0 +1,1456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		986E13181CB67FF600631409 /* JSONSerializer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 986E13191CB67FF600631409 /* Build configuration list for PBXAggregateTarget "JSONSerializer" */;
+			buildPhases = (
+			);
+			dependencies = (
+				986E13231CB6800400631409 /* PBXTargetDependency */,
+				986E131D1CB6800400631409 /* PBXTargetDependency */,
+				986E13211CB6800400631409 /* PBXTargetDependency */,
+				986E13771CB6872800631409 /* PBXTargetDependency */,
+			);
+			name = JSONSerializer;
+			productName = JSONSerializer;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		45217AA464675C0590175E6C /* Pods_JSONSerializerTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF14DC6BFC2456EAF7A12281 /* Pods_JSONSerializerTouch.framework */; };
+		59382620D3A19F176D431AB5 /* Pods_JSONSerializerTouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57282E737D54B8D85FE48FF2 /* Pods_JSONSerializerTouchTests.framework */; };
+		79E06F50A3CABD6D860F08FF /* Pods_JSONSerializerCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA313628D16E9856779DE5D /* Pods_JSONSerializerCocoa.framework */; };
+		986E12B91CB67F0400631409 /* JSONSerializerTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E12AF1CB67F0400631409 /* JSONSerializerTouch.framework */; };
+		986E12E21CB67F2600631409 /* JSONSerializerTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E12D81CB67F2600631409 /* JSONSerializerTV.framework */; };
+		986E132E1CB6804600631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
+		986E13301CB6805000631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
+		986E13311CB6805300631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
+		986E13851CB6885700631409 /* JSONSerializerCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E13011CB67F5200631409 /* JSONSerializerCocoa.framework */; };
+		986E138E1CB6897300631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
+		986E138F1CB6898600631409 /* JSONSerializerCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E138C1CB6890A00631409 /* JSONSerializerCocoaTests.swift */; };
+		986E13931CB68D2500631409 /* JSONSerializerTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E13921CB68D2500631409 /* JSONSerializerTouchTests.swift */; };
+		986E13951CB68D3400631409 /* JSONSerializerTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E13941CB68D3400631409 /* JSONSerializerTVTests.swift */; };
+		98EE03E21CB6953A001FA681 /* JSONSerializerCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E11CB6953A001FA681 /* JSONSerializerCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EE03E81CB6954E001FA681 /* JSONSerializerWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E71CB6954E001FA681 /* JSONSerializerWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EE03E91CB6955E001FA681 /* JSONSerializerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E31CB69540001FA681 /* JSONSerializerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EE03EA1CB69566001FA681 /* JSONSerializerTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E51CB69546001FA681 /* JSONSerializerTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A837707C3D43C38CA8B4023 /* Pods_JSONSerializerTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1D1ED89DA1463A2129000 /* Pods_JSONSerializerTVTests.framework */; };
+		B26707227E1830069A0EFDC9 /* Pods_JSONSerializerCocoaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAB35A429CC1A6EAD753E8E /* Pods_JSONSerializerCocoaTests.framework */; };
+		B94321396EE81E8656AF5E8B /* Pods_JSONSerializerTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F993CBA92506212CFE4C2A2 /* Pods_JSONSerializerTV.framework */; };
+		C3AFB76FD10563C1535ED60E /* Pods_JSONSerializerWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9468DDF13F4860A6A21C74D /* Pods_JSONSerializerWatch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		986E12BA1CB67F0400631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E12AE1CB67F0400631409;
+			remoteInfo = JSONSerializerTouch;
+		};
+		986E12E31CB67F2600631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E12D71CB67F2600631409;
+			remoteInfo = JSONSerializerTV;
+		};
+		986E131C1CB6800400631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E12AE1CB67F0400631409;
+			remoteInfo = JSONSerializerTouch;
+		};
+		986E13201CB6800400631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E12D71CB67F2600631409;
+			remoteInfo = JSONSerializerTV;
+		};
+		986E13221CB6800400631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E13001CB67F5200631409;
+			remoteInfo = JSONSerializerCocoa;
+		};
+		986E13761CB6872800631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E134B1CB6849400631409;
+			remoteInfo = JSONSerializerWatch;
+		};
+		986E13861CB6885700631409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986E12851CB678E800631409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986E13001CB67F5200631409;
+			remoteInfo = JSONSerializerCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0938E8060699042766771B59 /* Pods_JSONSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA313628D16E9856779DE5D /* Pods_JSONSerializerCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE6F886FC5A5C53A8521AA4 /* Pods-JSONSerializerCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerCocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerCocoa/Pods-JSONSerializerCocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		0E5C122C346A166E0896D6BE /* Pods-JSONSerializerTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTouch/Pods-JSONSerializerTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		1FAB35A429CC1A6EAD753E8E /* Pods_JSONSerializerCocoaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerCocoaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F6524FD1CDBDF89C180FE9 /* Pods-JSONSerializerWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerWatch/Pods-JSONSerializerWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		2D591EBDD65F3AA23F816366 /* Pods-JSONSerializerCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerCocoa/Pods-JSONSerializerCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		2F50816A282462944D56973B /* Pods-JSONSerializerTouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTouchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTouchTests/Pods-JSONSerializerTouchTests.release.xcconfig"; sourceTree = "<group>"; };
+		37F78191AA205DB015DBF2B8 /* Pods-JSONSerializerTouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTouchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTouchTests/Pods-JSONSerializerTouchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57282E737D54B8D85FE48FF2 /* Pods_JSONSerializerTouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerTouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693FE08E98CFC8A4EB82E403 /* Pods-JSONSerializerWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerWatch/Pods-JSONSerializerWatch.release.xcconfig"; sourceTree = "<group>"; };
+		82C9552AA273F07718AAF688 /* Pods-JSONSerializerCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerCocoaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerCocoaTests/Pods-JSONSerializerCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		912481F7E65DBC5EA68C7690 /* Pods-JSONSerializerTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTV/Pods-JSONSerializerTV.release.xcconfig"; sourceTree = "<group>"; };
+		986E12931CB678E800631409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986E12A81CB67A8900631409 /* JSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
+		986E12AF1CB67F0400631409 /* JSONSerializerTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONSerializerTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E12B81CB67F0400631409 /* JSONSerializerTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONSerializerTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E12D81CB67F2600631409 /* JSONSerializerTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONSerializerTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E12E11CB67F2600631409 /* JSONSerializerTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONSerializerTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E13011CB67F5200631409 /* JSONSerializerCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONSerializerCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E134C1CB6849400631409 /* JSONSerializerWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONSerializerWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E13551CB6859C00631409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = JSONSerializerTests/Info.plist; sourceTree = "<group>"; };
+		986E13801CB6885700631409 /* JSONSerializerCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONSerializerCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986E138C1CB6890A00631409 /* JSONSerializerCocoaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializerCocoaTests.swift; sourceTree = "<group>"; };
+		986E13921CB68D2500631409 /* JSONSerializerTouchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSerializerTouchTests.swift; path = JSONSerializerTests/JSONSerializerTouchTests/JSONSerializerTouchTests.swift; sourceTree = SOURCE_ROOT; };
+		986E13941CB68D3400631409 /* JSONSerializerTVTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSerializerTVTests.swift; path = JSONSerializerTests/JSONSerializerTVTests/JSONSerializerTVTests.swift; sourceTree = SOURCE_ROOT; };
+		98EE03E11CB6953A001FA681 /* JSONSerializerCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerCocoa.h; path = JSONSerializer/JSONSerializerCocoa.h; sourceTree = SOURCE_ROOT; };
+		98EE03E31CB69540001FA681 /* JSONSerializerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerTouch.h; path = JSONSerializer/JSONSerializerTouch.h; sourceTree = SOURCE_ROOT; };
+		98EE03E51CB69546001FA681 /* JSONSerializerTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerTV.h; path = JSONSerializer/JSONSerializerTV.h; sourceTree = SOURCE_ROOT; };
+		98EE03E71CB6954E001FA681 /* JSONSerializerWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerWatch.h; path = JSONSerializer/JSONSerializerWatch.h; sourceTree = SOURCE_ROOT; };
+		9F993CBA92506212CFE4C2A2 /* Pods_JSONSerializerTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90AC8F200827B202467A58A /* Pods-JSONSerializerTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTV/Pods-JSONSerializerTV.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A240F067580C753EEF74F4 /* Pods_JSONSerializerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDF758E76D754869ED16940 /* Pods-JSONSerializerTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTVTests/Pods-JSONSerializerTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3AA3E8FCD4E47311DDC98F3 /* Pods-JSONSerializerTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTVTests/Pods-JSONSerializerTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9468DDF13F4860A6A21C74D /* Pods_JSONSerializerWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF14DC6BFC2456EAF7A12281 /* Pods_JSONSerializerTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D1D1ED89DA1463A2129000 /* Pods_JSONSerializerTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONSerializerTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E6BB53D4814640EA896462 /* Pods-JSONSerializerTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTouch/Pods-JSONSerializerTouch.release.xcconfig"; sourceTree = "<group>"; };
+		FE7185C8ED7BE2D6D16D8C59 /* Pods-JSONSerializerCocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerCocoaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerCocoaTests/Pods-JSONSerializerCocoaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986E12AB1CB67F0400631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45217AA464675C0590175E6C /* Pods_JSONSerializerTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12B51CB67F0400631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E12B91CB67F0400631409 /* JSONSerializerTouch.framework in Frameworks */,
+				59382620D3A19F176D431AB5 /* Pods_JSONSerializerTouchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12D41CB67F2600631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94321396EE81E8656AF5E8B /* Pods_JSONSerializerTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12DE1CB67F2600631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E12E21CB67F2600631409 /* JSONSerializerTV.framework in Frameworks */,
+				9A837707C3D43C38CA8B4023 /* Pods_JSONSerializerTVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12FD1CB67F5200631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E06F50A3CABD6D860F08FF /* Pods_JSONSerializerCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E13481CB6849400631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AFB76FD10563C1535ED60E /* Pods_JSONSerializerWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E137D1CB6885700631409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E13851CB6885700631409 /* JSONSerializerCocoa.framework in Frameworks */,
+				B26707227E1830069A0EFDC9 /* Pods_JSONSerializerCocoaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8927662E8F7C70212A02C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6F886FC5A5C53A8521AA4 /* Pods-JSONSerializerCocoa.debug.xcconfig */,
+				2D591EBDD65F3AA23F816366 /* Pods-JSONSerializerCocoa.release.xcconfig */,
+				B90AC8F200827B202467A58A /* Pods-JSONSerializerTV.debug.xcconfig */,
+				912481F7E65DBC5EA68C7690 /* Pods-JSONSerializerTV.release.xcconfig */,
+				0E5C122C346A166E0896D6BE /* Pods-JSONSerializerTouch.debug.xcconfig */,
+				E3E6BB53D4814640EA896462 /* Pods-JSONSerializerTouch.release.xcconfig */,
+				26F6524FD1CDBDF89C180FE9 /* Pods-JSONSerializerWatch.debug.xcconfig */,
+				693FE08E98CFC8A4EB82E403 /* Pods-JSONSerializerWatch.release.xcconfig */,
+				82C9552AA273F07718AAF688 /* Pods-JSONSerializerCocoaTests.debug.xcconfig */,
+				FE7185C8ED7BE2D6D16D8C59 /* Pods-JSONSerializerCocoaTests.release.xcconfig */,
+				CCDF758E76D754869ED16940 /* Pods-JSONSerializerTVTests.debug.xcconfig */,
+				D3AA3E8FCD4E47311DDC98F3 /* Pods-JSONSerializerTVTests.release.xcconfig */,
+				37F78191AA205DB015DBF2B8 /* Pods-JSONSerializerTouchTests.debug.xcconfig */,
+				2F50816A282462944D56973B /* Pods-JSONSerializerTouchTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		986E12841CB678E800631409 = {
+			isa = PBXGroup;
+			children = (
+				986E12901CB678E800631409 /* JSONSerializer */,
+				986E13461CB6816700631409 /* JSONSerializerTests */,
+				986E128F1CB678E800631409 /* Products */,
+				7E8927662E8F7C70212A02C1 /* Pods */,
+				B90DB018363C5D14CE46F2C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		986E128F1CB678E800631409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986E12AF1CB67F0400631409 /* JSONSerializerTouch.framework */,
+				986E12B81CB67F0400631409 /* JSONSerializerTouchTests.xctest */,
+				986E12D81CB67F2600631409 /* JSONSerializerTV.framework */,
+				986E12E11CB67F2600631409 /* JSONSerializerTVTests.xctest */,
+				986E13011CB67F5200631409 /* JSONSerializerCocoa.framework */,
+				986E134C1CB6849400631409 /* JSONSerializerWatch.framework */,
+				986E13801CB6885700631409 /* JSONSerializerCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		986E12901CB678E800631409 /* JSONSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				986E12931CB678E800631409 /* Info.plist */,
+				986E12A81CB67A8900631409 /* JSONSerializer.swift */,
+				986E13321CB680AA00631409 /* Cocoa */,
+				986E13371CB680BE00631409 /* Touch */,
+				986E133C1CB680E100631409 /* TV */,
+				986E13411CB680F000631409 /* Watch */,
+			);
+			path = JSONSerializer;
+			sourceTree = "<group>";
+		};
+		986E13321CB680AA00631409 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				98EE03E11CB6953A001FA681 /* JSONSerializerCocoa.h */,
+			);
+			name = Cocoa;
+			path = JSONSerializerCocoa;
+			sourceTree = "<group>";
+		};
+		986E13371CB680BE00631409 /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				98EE03E31CB69540001FA681 /* JSONSerializerTouch.h */,
+			);
+			name = Touch;
+			path = JSONSerializerCocoa/JSONSerializerTouch;
+			sourceTree = "<group>";
+		};
+		986E133C1CB680E100631409 /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				98EE03E51CB69546001FA681 /* JSONSerializerTV.h */,
+			);
+			name = TV;
+			path = JSONSerializerTV;
+			sourceTree = "<group>";
+		};
+		986E13411CB680F000631409 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				98EE03E71CB6954E001FA681 /* JSONSerializerWatch.h */,
+			);
+			name = Watch;
+			path = JSONSerializerWatch;
+			sourceTree = "<group>";
+		};
+		986E13461CB6816700631409 /* JSONSerializerTests */ = {
+			isa = PBXGroup;
+			children = (
+				986E138B1CB6890A00631409 /* JSONSerializerCocoaTests */,
+				986E135B1CB685BC00631409 /* JSONSerializerTouchTests */,
+				986E13601CB685D300631409 /* JSONSerializerTVTests */,
+				986E13551CB6859C00631409 /* Info.plist */,
+			);
+			name = JSONSerializerTests;
+			sourceTree = "<group>";
+		};
+		986E135B1CB685BC00631409 /* JSONSerializerTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				986E13921CB68D2500631409 /* JSONSerializerTouchTests.swift */,
+			);
+			name = JSONSerializerTouchTests;
+			path = JSONSerializer/JSONSerializerWatch/JSONSerializerCocoaTests/JSONSerializerTouchTests;
+			sourceTree = "<group>";
+		};
+		986E13601CB685D300631409 /* JSONSerializerTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				986E13941CB68D3400631409 /* JSONSerializerTVTests.swift */,
+			);
+			name = JSONSerializerTVTests;
+			path = JSONSerializer/JSONSerializerWatch/JSONSerializerTVTests;
+			sourceTree = "<group>";
+		};
+		986E138B1CB6890A00631409 /* JSONSerializerCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				986E138C1CB6890A00631409 /* JSONSerializerCocoaTests.swift */,
+			);
+			name = JSONSerializerCocoaTests;
+			path = JSONSerializerTests/JSONSerializerCocoaTests;
+			sourceTree = "<group>";
+		};
+		B90DB018363C5D14CE46F2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0938E8060699042766771B59 /* Pods_JSONSerializer.framework */,
+				C0A240F067580C753EEF74F4 /* Pods_JSONSerializerTests.framework */,
+				0CA313628D16E9856779DE5D /* Pods_JSONSerializerCocoa.framework */,
+				9F993CBA92506212CFE4C2A2 /* Pods_JSONSerializerTV.framework */,
+				DF14DC6BFC2456EAF7A12281 /* Pods_JSONSerializerTouch.framework */,
+				D9468DDF13F4860A6A21C74D /* Pods_JSONSerializerWatch.framework */,
+				1FAB35A429CC1A6EAD753E8E /* Pods_JSONSerializerCocoaTests.framework */,
+				E0D1D1ED89DA1463A2129000 /* Pods_JSONSerializerTVTests.framework */,
+				57282E737D54B8D85FE48FF2 /* Pods_JSONSerializerTouchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		986E12AC1CB67F0400631409 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE03E91CB6955E001FA681 /* JSONSerializerTouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12D51CB67F2600631409 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE03EA1CB69566001FA681 /* JSONSerializerTV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12FE1CB67F5200631409 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE03E21CB6953A001FA681 /* JSONSerializerCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E13491CB6849400631409 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE03E81CB6954E001FA681 /* JSONSerializerWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		986E12AE1CB67F0400631409 /* JSONSerializerTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E12C01CB67F0400631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTouch" */;
+			buildPhases = (
+				831D84CDCA91D946D127CA18 /* Check Pods Manifest.lock */,
+				986E12AA1CB67F0400631409 /* Sources */,
+				986E12AB1CB67F0400631409 /* Frameworks */,
+				986E12AC1CB67F0400631409 /* Headers */,
+				986E12AD1CB67F0400631409 /* Resources */,
+				69AC095B0F04279E22448D69 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONSerializerTouch;
+			productName = JSONSerializerTouch;
+			productReference = 986E12AF1CB67F0400631409 /* JSONSerializerTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		986E12B71CB67F0400631409 /* JSONSerializerTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E12C31CB67F0400631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTouchTests" */;
+			buildPhases = (
+				1BA4D4F5D9B0AD84FA416C5E /* Check Pods Manifest.lock */,
+				986E12B41CB67F0400631409 /* Sources */,
+				986E12B51CB67F0400631409 /* Frameworks */,
+				986E12B61CB67F0400631409 /* Resources */,
+				DF66E69E79216A3601C3A0D5 /* Embed Pods Frameworks */,
+				D7B1C3206FFDB2908221AE88 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986E12BB1CB67F0400631409 /* PBXTargetDependency */,
+			);
+			name = JSONSerializerTouchTests;
+			productName = JSONSerializerTouchTests;
+			productReference = 986E12B81CB67F0400631409 /* JSONSerializerTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		986E12D71CB67F2600631409 /* JSONSerializerTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E12E91CB67F2600631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTV" */;
+			buildPhases = (
+				CEBDCCC3A5B1EBC0C1B0ECA0 /* Check Pods Manifest.lock */,
+				986E12D31CB67F2600631409 /* Sources */,
+				986E12D41CB67F2600631409 /* Frameworks */,
+				986E12D51CB67F2600631409 /* Headers */,
+				986E12D61CB67F2600631409 /* Resources */,
+				33A13C3E9CE9233BC3372B19 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONSerializerTV;
+			productName = JSONSerializerTV;
+			productReference = 986E12D81CB67F2600631409 /* JSONSerializerTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		986E12E01CB67F2600631409 /* JSONSerializerTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E12EC1CB67F2600631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTVTests" */;
+			buildPhases = (
+				B97DFF02DFEF50563DE46C6D /* Check Pods Manifest.lock */,
+				986E12DD1CB67F2600631409 /* Sources */,
+				986E12DE1CB67F2600631409 /* Frameworks */,
+				986E12DF1CB67F2600631409 /* Resources */,
+				F14DDB63514F6006A2C88CD7 /* Embed Pods Frameworks */,
+				7D2452CA5B00B7721FB32659 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986E12E41CB67F2600631409 /* PBXTargetDependency */,
+			);
+			name = JSONSerializerTVTests;
+			productName = JSONSerializerTVTests;
+			productReference = 986E12E11CB67F2600631409 /* JSONSerializerTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		986E13001CB67F5200631409 /* JSONSerializerCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E13121CB67F5200631409 /* Build configuration list for PBXNativeTarget "JSONSerializerCocoa" */;
+			buildPhases = (
+				F921315F4F1F0A9E85958173 /* Check Pods Manifest.lock */,
+				986E12FC1CB67F5200631409 /* Sources */,
+				986E12FD1CB67F5200631409 /* Frameworks */,
+				986E12FE1CB67F5200631409 /* Headers */,
+				986E12FF1CB67F5200631409 /* Resources */,
+				F7A8E2240F5B519B89C411D3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONSerializerCocoa;
+			productName = JSONSerializerCocoa;
+			productReference = 986E13011CB67F5200631409 /* JSONSerializerCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		986E134B1CB6849400631409 /* JSONSerializerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E13511CB6849400631409 /* Build configuration list for PBXNativeTarget "JSONSerializerWatch" */;
+			buildPhases = (
+				FB1CD1FDDCC3417CA32B4E6E /* Check Pods Manifest.lock */,
+				986E13471CB6849400631409 /* Sources */,
+				986E13481CB6849400631409 /* Frameworks */,
+				986E13491CB6849400631409 /* Headers */,
+				986E134A1CB6849400631409 /* Resources */,
+				7DA5EC3DC0E76C1F646745C4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONSerializerWatch;
+			productName = JSONSerializerWatch;
+			productReference = 986E134C1CB6849400631409 /* JSONSerializerWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		986E137F1CB6885700631409 /* JSONSerializerCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986E13881CB6885700631409 /* Build configuration list for PBXNativeTarget "JSONSerializerCocoaTests" */;
+			buildPhases = (
+				E035D6C3D4F51B7D4AF97BFC /* Check Pods Manifest.lock */,
+				986E137C1CB6885700631409 /* Sources */,
+				986E137D1CB6885700631409 /* Frameworks */,
+				986E137E1CB6885700631409 /* Resources */,
+				740C8F059F8D0921FC25E32F /* Embed Pods Frameworks */,
+				DE6A16AAAA51237A2CD16F7E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986E13871CB6885700631409 /* PBXTargetDependency */,
+			);
+			name = JSONSerializerCocoaTests;
+			productName = JSONSerializerCocoaTests;
+			productReference = 986E13801CB6885700631409 /* JSONSerializerCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986E12851CB678E800631409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ramotion;
+				TargetAttributes = {
+					986E12AE1CB67F0400631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E12B71CB67F0400631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E12D71CB67F2600631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E12E01CB67F2600631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E13001CB67F5200631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E13181CB67FF600631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E134B1CB6849400631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					986E137F1CB6885700631409 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 986E12881CB678E800631409 /* Build configuration list for PBXProject "JSONSerializer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 986E12841CB678E800631409;
+			productRefGroup = 986E128F1CB678E800631409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986E13181CB67FF600631409 /* JSONSerializer */,
+				986E13001CB67F5200631409 /* JSONSerializerCocoa */,
+				986E137F1CB6885700631409 /* JSONSerializerCocoaTests */,
+				986E12AE1CB67F0400631409 /* JSONSerializerTouch */,
+				986E12B71CB67F0400631409 /* JSONSerializerTouchTests */,
+				986E12D71CB67F2600631409 /* JSONSerializerTV */,
+				986E12E01CB67F2600631409 /* JSONSerializerTVTests */,
+				986E134B1CB6849400631409 /* JSONSerializerWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		986E12AD1CB67F0400631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12B61CB67F0400631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12D61CB67F2600631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12DF1CB67F2600631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12FF1CB67F5200631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E134A1CB6849400631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E137E1CB6885700631409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA4D4F5D9B0AD84FA416C5E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33A13C3E9CE9233BC3372B19 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerTV/Pods-JSONSerializerTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69AC095B0F04279E22448D69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerTouch/Pods-JSONSerializerTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740C8F059F8D0921FC25E32F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerCocoaTests/Pods-JSONSerializerCocoaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2452CA5B00B7721FB32659 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerTVTests/Pods-JSONSerializerTVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA5EC3DC0E76C1F646745C4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerWatch/Pods-JSONSerializerWatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831D84CDCA91D946D127CA18 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B97DFF02DFEF50563DE46C6D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBDCCC3A5B1EBC0C1B0ECA0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B1C3206FFDB2908221AE88 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerTouchTests/Pods-JSONSerializerTouchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6A16AAAA51237A2CD16F7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerCocoaTests/Pods-JSONSerializerCocoaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF66E69E79216A3601C3A0D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerTouchTests/Pods-JSONSerializerTouchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E035D6C3D4F51B7D4AF97BFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F14DDB63514F6006A2C88CD7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerTVTests/Pods-JSONSerializerTVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A8E2240F5B519B89C411D3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONSerializerCocoa/Pods-JSONSerializerCocoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F921315F4F1F0A9E85958173 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1CD1FDDCC3417CA32B4E6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986E12AA1CB67F0400631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E132E1CB6804600631409 /* JSONSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12B41CB67F0400631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E13931CB68D2500631409 /* JSONSerializerTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12D31CB67F2600631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E13301CB6805000631409 /* JSONSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12DD1CB67F2600631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E13951CB68D3400631409 /* JSONSerializerTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E12FC1CB67F5200631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E13311CB6805300631409 /* JSONSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E13471CB6849400631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E138E1CB6897300631409 /* JSONSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986E137C1CB6885700631409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986E138F1CB6898600631409 /* JSONSerializerCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		986E12BB1CB67F0400631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E12AE1CB67F0400631409 /* JSONSerializerTouch */;
+			targetProxy = 986E12BA1CB67F0400631409 /* PBXContainerItemProxy */;
+		};
+		986E12E41CB67F2600631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E12D71CB67F2600631409 /* JSONSerializerTV */;
+			targetProxy = 986E12E31CB67F2600631409 /* PBXContainerItemProxy */;
+		};
+		986E131D1CB6800400631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E12AE1CB67F0400631409 /* JSONSerializerTouch */;
+			targetProxy = 986E131C1CB6800400631409 /* PBXContainerItemProxy */;
+		};
+		986E13211CB6800400631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E12D71CB67F2600631409 /* JSONSerializerTV */;
+			targetProxy = 986E13201CB6800400631409 /* PBXContainerItemProxy */;
+		};
+		986E13231CB6800400631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E13001CB67F5200631409 /* JSONSerializerCocoa */;
+			targetProxy = 986E13221CB6800400631409 /* PBXContainerItemProxy */;
+		};
+		986E13771CB6872800631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E134B1CB6849400631409 /* JSONSerializerWatch */;
+			targetProxy = 986E13761CB6872800631409 /* PBXContainerItemProxy */;
+		};
+		986E13871CB6885700631409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986E13001CB67F5200631409 /* JSONSerializerCocoa */;
+			targetProxy = 986E13861CB6885700631409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		986E12A01CB678E800631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		986E12A11CB678E800631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		986E12C11CB67F0400631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5C122C346A166E0896D6BE /* Pods-JSONSerializerTouch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSONSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986E12C21CB67F0400631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E6BB53D4814640EA896462 /* Pods-JSONSerializerTouch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSONSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986E12C41CB67F0400631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F78191AA205DB015DBF2B8 /* Pods-JSONSerializerTouchTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JSONSerializerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		986E12C51CB67F0400631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F50816A282462944D56973B /* Pods-JSONSerializerTouchTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JSONSerializerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986E12EA1CB67F2600631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90AC8F200827B202467A58A /* Pods-JSONSerializerTV.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSONSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		986E12EB1CB67F2600631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912481F7E65DBC5EA68C7690 /* Pods-JSONSerializerTV.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSONSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986E12ED1CB67F2600631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDF758E76D754869ED16940 /* Pods-JSONSerializerTVTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JSONSerializerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		986E12EE1CB67F2600631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AA3E8FCD4E47311DDC98F3 /* Pods-JSONSerializerTVTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JSONSerializerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986E13131CB67F5200631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE6F886FC5A5C53A8521AA4 /* Pods-JSONSerializerCocoa.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/JSONSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		986E13141CB67F5200631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D591EBDD65F3AA23F816366 /* Pods-JSONSerializerCocoa.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/JSONSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		986E131A1CB67FF600631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		986E131B1CB67FF600631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		986E13521CB6849400631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F6524FD1CDBDF89C180FE9 /* Pods-JSONSerializerWatch.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSONSerializer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		986E13531CB6849400631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693FE08E98CFC8A4EB82E403 /* Pods-JSONSerializerWatch.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSONSerializer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		986E13891CB6885700631409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C9552AA273F07718AAF688 /* Pods-JSONSerializerCocoaTests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONSerializerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		986E138A1CB6885700631409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7185C8ED7BE2D6D16D8C59 /* Pods-JSONSerializerCocoaTests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONSerializerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramotion.JSONSerializerCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986E12881CB678E800631409 /* Build configuration list for PBXProject "JSONSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E12A01CB678E800631409 /* Debug */,
+				986E12A11CB678E800631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E12C01CB67F0400631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E12C11CB67F0400631409 /* Debug */,
+				986E12C21CB67F0400631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E12C31CB67F0400631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E12C41CB67F0400631409 /* Debug */,
+				986E12C51CB67F0400631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E12E91CB67F2600631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E12EA1CB67F2600631409 /* Debug */,
+				986E12EB1CB67F2600631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E12EC1CB67F2600631409 /* Build configuration list for PBXNativeTarget "JSONSerializerTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E12ED1CB67F2600631409 /* Debug */,
+				986E12EE1CB67F2600631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E13121CB67F5200631409 /* Build configuration list for PBXNativeTarget "JSONSerializerCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E13131CB67F5200631409 /* Debug */,
+				986E13141CB67F5200631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E13191CB67FF600631409 /* Build configuration list for PBXAggregateTarget "JSONSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E131A1CB67FF600631409 /* Debug */,
+				986E131B1CB67FF600631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E13511CB6849400631409 /* Build configuration list for PBXNativeTarget "JSONSerializerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E13521CB6849400631409 /* Debug */,
+				986E13531CB6849400631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986E13881CB6885700631409 /* Build configuration list for PBXNativeTarget "JSONSerializerCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986E13891CB6885700631409 /* Debug */,
+				986E138A1CB6885700631409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986E12851CB678E800631409 /* Project object */;
+}

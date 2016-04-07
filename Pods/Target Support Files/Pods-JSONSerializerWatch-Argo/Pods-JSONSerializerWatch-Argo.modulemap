@@ -1,0 +1,6 @@
+framework module Argo {
+  umbrella header "Pods-JSONSerializerWatch-Argo-umbrella.h"
+
+  export *
+  module * { export * }
+}
