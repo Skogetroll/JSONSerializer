@@ -248,19 +248,22 @@ public extension JSONSerializable {
         let mirror = Mirror(reflecting: self)
         let fields: [String: JSON] = mirror.reflectAll().reduce([:]) { (acc, elem) in
             var acc = acc
-            let (label, value) = elem
-            if let label = label {
-                if let value = value as? JSONSerializable {
-                    acc[label] = value.serialize()
-                }
-                else {
-                    #if ShadowSerializationEnabled
-                        if let shadow = shadowSerialization(value) {
-                            acc[label] = shadow
-                        }
-                    #endif
-                }
+            let (label_, value) = elem
+            guard let label = label_ else {
+                return acc
             }
+            
+            if let value = value as? JSONSerializable {
+                acc[label] = value.serialize()
+            }
+            else {
+                #if ShadowSerializationEnabled
+                    if let shadow = shadowSerialization(value) {
+                        acc[label] = shadow
+                    }
+                #endif
+            }
+            
             return acc
         }
         
@@ -271,49 +274,50 @@ public extension JSONSerializable {
 #if ShadowSerializationEnabled
     private func shadowSerialization(object: Any) -> JSON? {
         let mirror = Mirror(reflecting: object)
-        if let displayStyle = mirror.displayStyle {
-            switch displayStyle {
-            case .Dictionary, .Class, .Struct:
-                let reduced = mirror.reflectAll().reduce([:], combine: { (acc, elem) -> [String: Any] in
-                    var acc = acc
-                    let (label, value) = elem
-                    if let label = label {
-                        acc[label] = value
+        guard let displayStyle = mirror.displayStyle else {
+            return nil
+        }
+        
+        switch displayStyle {
+        case .Dictionary, .Class, .Struct:
+            let reduced = mirror.reflectAll().reduce([:], combine: { (acc, elem) -> [String: Any] in
+                var acc = acc
+                let (label, value) = elem
+                if let label = label {
+                    acc[label] = value
+                }
+                return acc
+            })
+            let serialized = reduced.serialize()
+            return serialized
+        case .Tuple, .Collection, .Set:
+            let array = mirror.reflectAll().map({ $1 })
+            let serialized = array.serialize()
+            return serialized
+        case .Enum:
+            let reduced = mirror.reflectAll().reduce([:], combine: { (acc, elem) -> [String: Any] in
+                var acc = acc
+                let (label, value) = elem
+                if let label = label
+                {
+                    if let value = value as? JSONSerializable {
+                        acc[label] = value.serialize()
                     }
-                    return acc
-                })
+                    else if let shadow = shadowSerialization(value) {
+                        acc[label] = shadow
+                    }
+                }
+                return acc
+            })
+            if reduced.isEmpty {
+                return String(object).serialize()
+            }
+            else {
                 let serialized = reduced.serialize()
                 return serialized
-            case .Tuple, .Collection, .Set:
-                let array = mirror.reflectAll().map({ $1 })
-                let serialized = array.serialize()
-                return serialized
-            case .Enum:
-                let reduced = mirror.reflectAll().reduce([:], combine: { (acc, elem) -> [String: Any] in
-                    var acc = acc
-                    let (label, value) = elem
-                    if let label = label
-                    {
-                        if let value = value as? JSONSerializable {
-                            acc[label] = value.serialize()
-                        }
-                        else if let shadow = shadowSerialization(value) {
-                            acc[label] = shadow
-                        }
-                    }
-                    return acc
-                })
-                if reduced.isEmpty {
-                    return String(object).serialize()
-                }
-                else {
-                    let serialized = reduced.serialize()
-                    return serialized
-                }
-            case .Optional:
-                return (object as? JSONSerializable).serialize() ?? JSON.Null
             }
+        case .Optional:
+            return (object as? JSONSerializable).serialize() ?? JSON.Null
         }
-        return nil
     }
 #endif
