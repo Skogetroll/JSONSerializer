@@ -27,6 +27,9 @@
 		45217AA464675C0590175E6C /* Pods_JSONSerializerTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF14DC6BFC2456EAF7A12281 /* Pods_JSONSerializerTouch.framework */; };
 		59382620D3A19F176D431AB5 /* Pods_JSONSerializerTouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57282E737D54B8D85FE48FF2 /* Pods_JSONSerializerTouchTests.framework */; };
 		79E06F50A3CABD6D860F08FF /* Pods_JSONSerializerCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA313628D16E9856779DE5D /* Pods_JSONSerializerCocoa.framework */; };
+		9835AE5A1CB79E9A00DF8649 /* JSONSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835AE591CB79E9A00DF8649 /* JSONSerializerTests.swift */; };
+		9835AE5B1CB79E9A00DF8649 /* JSONSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835AE591CB79E9A00DF8649 /* JSONSerializerTests.swift */; };
+		9835AE5C1CB79E9A00DF8649 /* JSONSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835AE591CB79E9A00DF8649 /* JSONSerializerTests.swift */; };
 		986E12B91CB67F0400631409 /* JSONSerializerTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E12AF1CB67F0400631409 /* JSONSerializerTouch.framework */; };
 		986E12E21CB67F2600631409 /* JSONSerializerTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E12D81CB67F2600631409 /* JSONSerializerTV.framework */; };
 		986E132E1CB6804600631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
@@ -34,9 +37,6 @@
 		986E13311CB6805300631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
 		986E13851CB6885700631409 /* JSONSerializerCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E13011CB67F5200631409 /* JSONSerializerCocoa.framework */; };
 		986E138E1CB6897300631409 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E12A81CB67A8900631409 /* JSONSerializer.swift */; };
-		986E138F1CB6898600631409 /* JSONSerializerCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E138C1CB6890A00631409 /* JSONSerializerCocoaTests.swift */; };
-		986E13931CB68D2500631409 /* JSONSerializerTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E13921CB68D2500631409 /* JSONSerializerTouchTests.swift */; };
-		986E13951CB68D3400631409 /* JSONSerializerTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E13941CB68D3400631409 /* JSONSerializerTVTests.swift */; };
 		98EE03E21CB6953A001FA681 /* JSONSerializerCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E11CB6953A001FA681 /* JSONSerializerCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98EE03E81CB6954E001FA681 /* JSONSerializerWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E71CB6954E001FA681 /* JSONSerializerWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98EE03E91CB6955E001FA681 /* JSONSerializerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE03E31CB69540001FA681 /* JSONSerializerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -113,6 +113,7 @@
 		693FE08E98CFC8A4EB82E403 /* Pods-JSONSerializerWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerWatch/Pods-JSONSerializerWatch.release.xcconfig"; sourceTree = "<group>"; };
 		82C9552AA273F07718AAF688 /* Pods-JSONSerializerCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerCocoaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerCocoaTests/Pods-JSONSerializerCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		912481F7E65DBC5EA68C7690 /* Pods-JSONSerializerTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONSerializerTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONSerializerTV/Pods-JSONSerializerTV.release.xcconfig"; sourceTree = "<group>"; };
+		9835AE591CB79E9A00DF8649 /* JSONSerializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSerializerTests.swift; path = JSONSerializerTests/JSONSerializerTests.swift; sourceTree = "<group>"; };
 		986E12931CB678E800631409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		986E12A81CB67A8900631409 /* JSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
 		986E12AF1CB67F0400631409 /* JSONSerializerTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONSerializerTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,9 +124,6 @@
 		986E134C1CB6849400631409 /* JSONSerializerWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONSerializerWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		986E13551CB6859C00631409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = JSONSerializerTests/Info.plist; sourceTree = "<group>"; };
 		986E13801CB6885700631409 /* JSONSerializerCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONSerializerCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		986E138C1CB6890A00631409 /* JSONSerializerCocoaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializerCocoaTests.swift; sourceTree = "<group>"; };
-		986E13921CB68D2500631409 /* JSONSerializerTouchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSerializerTouchTests.swift; path = JSONSerializerTests/JSONSerializerTouchTests/JSONSerializerTouchTests.swift; sourceTree = SOURCE_ROOT; };
-		986E13941CB68D3400631409 /* JSONSerializerTVTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSerializerTVTests.swift; path = JSONSerializerTests/JSONSerializerTVTests/JSONSerializerTVTests.swift; sourceTree = SOURCE_ROOT; };
 		98EE03E11CB6953A001FA681 /* JSONSerializerCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerCocoa.h; path = JSONSerializer/JSONSerializerCocoa.h; sourceTree = SOURCE_ROOT; };
 		98EE03E31CB69540001FA681 /* JSONSerializerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerTouch.h; path = JSONSerializer/JSONSerializerTouch.h; sourceTree = SOURCE_ROOT; };
 		98EE03E51CB69546001FA681 /* JSONSerializerTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONSerializerTV.h; path = JSONSerializer/JSONSerializerTV.h; sourceTree = SOURCE_ROOT; };
@@ -303,39 +301,10 @@
 		986E13461CB6816700631409 /* JSONSerializerTests */ = {
 			isa = PBXGroup;
 			children = (
-				986E138B1CB6890A00631409 /* JSONSerializerCocoaTests */,
-				986E135B1CB685BC00631409 /* JSONSerializerTouchTests */,
-				986E13601CB685D300631409 /* JSONSerializerTVTests */,
+				9835AE591CB79E9A00DF8649 /* JSONSerializerTests.swift */,
 				986E13551CB6859C00631409 /* Info.plist */,
 			);
 			name = JSONSerializerTests;
-			sourceTree = "<group>";
-		};
-		986E135B1CB685BC00631409 /* JSONSerializerTouchTests */ = {
-			isa = PBXGroup;
-			children = (
-				986E13921CB68D2500631409 /* JSONSerializerTouchTests.swift */,
-			);
-			name = JSONSerializerTouchTests;
-			path = JSONSerializer/JSONSerializerWatch/JSONSerializerCocoaTests/JSONSerializerTouchTests;
-			sourceTree = "<group>";
-		};
-		986E13601CB685D300631409 /* JSONSerializerTVTests */ = {
-			isa = PBXGroup;
-			children = (
-				986E13941CB68D3400631409 /* JSONSerializerTVTests.swift */,
-			);
-			name = JSONSerializerTVTests;
-			path = JSONSerializer/JSONSerializerWatch/JSONSerializerTVTests;
-			sourceTree = "<group>";
-		};
-		986E138B1CB6890A00631409 /* JSONSerializerCocoaTests */ = {
-			isa = PBXGroup;
-			children = (
-				986E138C1CB6890A00631409 /* JSONSerializerCocoaTests.swift */,
-			);
-			name = JSONSerializerCocoaTests;
-			path = JSONSerializerTests/JSONSerializerCocoaTests;
 			sourceTree = "<group>";
 		};
 		B90DB018363C5D14CE46F2C1 /* Frameworks */ = {
@@ -918,7 +887,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986E13931CB68D2500631409 /* JSONSerializerTouchTests.swift in Sources */,
+				9835AE5B1CB79E9A00DF8649 /* JSONSerializerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,7 +903,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986E13951CB68D3400631409 /* JSONSerializerTVTests.swift in Sources */,
+				9835AE5C1CB79E9A00DF8649 /* JSONSerializerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,7 +927,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986E138F1CB6898600631409 /* JSONSerializerCocoaTests.swift in Sources */,
+				9835AE5A1CB79E9A00DF8649 /* JSONSerializerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
