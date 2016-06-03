@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "Mikhail Stepkin" => "skogetroll@gmail.com" }
+  s.author       = { "Mikhail Stepkin" => "skogetroll@gmail.com" }
 
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.6"
@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Skogetroll/JSONSerializer.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Sources", "Sources/**/*.{h,m,swift}"
+  s.source_files  = "JSONSerializer/*.{h,m,swift}", "JSONSerializer/**/*.{h,m,swift}"
 
   s.requires_arc = true
 
-  s.dependency "JSONKit", "~> 3.0"
+  s.dependency "Argo", "~> 3"
 
 end
